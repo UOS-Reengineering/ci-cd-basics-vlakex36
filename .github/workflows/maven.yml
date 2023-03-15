@@ -20,8 +20,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B package
 
-  build-and-test:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -34,8 +32,6 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn -B package
-
-  build-and-test:
 
     runs-on: macos-latest
 
@@ -50,8 +46,6 @@ jobs:
       - name: Build with Maven
         run: mvn -B package
 
-  build-and-test:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -64,8 +58,6 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn -B package
-
-  build-and-test:
 
     runs-on: macos-latest
 
